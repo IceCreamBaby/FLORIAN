@@ -26,10 +26,10 @@ body, html {
 }
 
 h1 {
-    color: white;
+    color: grey;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #giftButton {
