@@ -17,7 +17,6 @@ body, html {
     object-fit: cover;
 }
 
-
 .content {
     position: absolute;
     top: 50%;
@@ -33,21 +32,26 @@ h1 {
     border-radius: 10px;
 }
 
-.buttons {
-    margin-top: 20px;
-}
-
-.button {
-    display: inline-block;
+#giftButton {
+    display: block;
+    margin: 20px auto;
     background-color: #3498db;
     color: white;
     padding: 15px 25px;
-    margin: 10px;
-    text-decoration: none;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.button:hover {
+#giftButton:hover {
     background-color: #2980b9;
+}
+
+#giftDescription {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    text-align: center;
 }
